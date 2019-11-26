@@ -1,7 +1,0 @@
-*node_modules
-*reports
-*screenshots
-*tests_output
-*.DS_Store
-tests/nightwatch/selenium-debug.log
-/selenium-debug.log
