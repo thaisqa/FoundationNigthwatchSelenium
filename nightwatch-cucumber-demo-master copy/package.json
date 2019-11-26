@@ -1,0 +1,20 @@
+{
+  "name": "nightwatch-demo",
+  "version": "1.0.0",
+  "description": "testing out nightwatch",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/nightwatch",
+    "nightwatch": "nightwatch -c tests/nightwatch.conf.js -e chrome, firefox, safari"
+  },
+  "author": "Modus Create",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^2.38.2",
+    "cucumber": "^4.0.0",
+    "cucumber-pretty": "^1.4.3",
+    "nightwatch": "^0.9.20",
+    "nightwatch-cucumber": "^9.1.2",
+    "selenium-server": "^3.11.0"
+  }
+}
