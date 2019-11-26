@@ -7,9 +7,9 @@ Feature: Example test
 		Then I verify the title <title>
 		# And I am redirect to <url> page
 		Examples:
-			| word               | title                          |
-			| SulAmérica Seguros | SulAmérica Seguros|
-			#| CI&T               | CI&T - Wikipedia               |
+			| word               | title              |
+			| SulAmérica Seguros | SulAmérica Seguros |
+			| CI&T               | CI&T               |
 
 			# | word               | url                                              | title             |
 			# | SulAmérica Seguros | https://en.wikipedia.org/wiki/SulAmérica_Seguros | SulAmérica Seguros|
